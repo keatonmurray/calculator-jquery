@@ -19,7 +19,7 @@ $(document).ready(function(){
       //function to perform calculation
       $('.calculate').click(function() {
         var expression = $('#display').val();
-        var result = eval(expression); // Warning: Using eval() is not recommended for production apps
+        var result = eval(expression);
         $('#display').val(result);
-      });
+      })
 });
